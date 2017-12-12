@@ -1,7 +1,7 @@
 Traffic Sign Classification
 ====
 
-###By Derrick Hathaway
+###By Derrick Hathaway<br />
 ###December 4, 2017
 
 <br />
