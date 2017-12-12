@@ -126,3 +126,15 @@ I set out to implement the LeNet architecture from the very start. In order to a
 | ![No Passing](samples/nopassing.png) | SoftMax Probabilities |
 | ------------------------------ | ----------- |
 | No Passing | 1.00000 |
+| Dangerous curve to the left | 0.00000 |
+| No passing for vehicles over 3.5 metric tons | 0.00000 |
+| Dangerous curve to the right | 0.00000 |
+| End of no passing | 0.00000 |
+
+| ![Stop](samples/stop.png) | SoftMax Probabilities |
+| ------------------------------ | ----------- |
+| Stop | 0.99988 |
+| Speed limit (60km/h) | 0.00005 |
+| Speed limit (50km/h) | 0.00004 |
+| Speed limit (30km/h) | 0.00001 |
+| Speed limit (80km/h) | 0.00001 |
