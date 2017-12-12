@@ -178,3 +178,5 @@ I set out to implement the LeNet architecture from the very start. In order to a
 | Speed limit (30km/h) | 0.00000 |
 | Speed limit (60km/h) | 0.00000 |
 | Speed limit (100km/h) | 0.00000 |
+
+I had great success with the real world examples. I think that the reason they did so well is because I chose clear images with good color saturation and cropped the images such that the signs are prominent and centered. In my case all 7 of the images I tried were correctly classified.
