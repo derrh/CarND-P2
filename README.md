@@ -27,9 +27,15 @@ The traffic sign images are divided into 3 datasets.
 Each rgb image is represented by a 32x32x3 array of values in the range of 0-255. Below are a few images from the training dataset.
 
 ![Vehicles over 3.5 metric tons prohibited](resources/truck.png)
+![Yield](resources/yield.png)
+![30km/h Speed Limit](resources/thirty.png)
 
 43 different road signs are represented in the dataset. Here is a breakdown of the distribution.
 
 ![Traffic Sign Distribution](resources/distribution.png)
 
-You can see from the graph that the sample sizes from each sign vary significantly. For example there are over 2000 50km/h Speed Limit signs and only 180 20km/h Speed Limit signs.
+You can see from the graph that the sample sizes from each sign vary significantly. For example there are over 2000 50km/h Speed Limit signs and only 180 20km/h Speed Limit signs. This presented a bit of a training challenge.
+
+<br />
+
+## 
