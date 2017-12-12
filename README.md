@@ -6,7 +6,7 @@ December 4, 2017***
 
 <br />
 
-##Files
+## Files
 
 - **README.md** This writeup
 - **TrafficSignClassifier.ipynb** The Jupyter Notebook file containing the code and output of the network
