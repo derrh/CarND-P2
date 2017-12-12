@@ -1,12 +1,12 @@
 Traffic Sign Classification
 ====
 
-##### By Derrick Hathaway
-##### December 4, 2017
+###By Derrick Hathaway
+###December 4, 2017
 
 <br />
 
-#### Files
+##Files
 
 - **README.md** This writeup
 - **TrafficSignClassifier.ipynb** The Jupyter Notebook file containing the code and output of the network
@@ -14,7 +14,7 @@ Traffic Sign Classification
 
 <br />
 
-#### Data Summary and Exploration
+## Data Summary and Exploration
 
 The training data for this project consists of traffic sign images from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset).
 
