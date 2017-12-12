@@ -138,3 +138,43 @@ I set out to implement the LeNet architecture from the very start. In order to a
 | Speed limit (50km/h) | 0.00004 |
 | Speed limit (30km/h) | 0.00001 |
 | Speed limit (80km/h) | 0.00001 |
+
+| ![Yield](samples/yield.png) | SoftMax Probabilities |
+| ------------------------------ | ----------- |
+| Yield | 1.00000 |
+| No vehicles | 0.00000 |
+| No passing | 0.00000 |
+| Road work | 0.00000 |
+| Speed Limit (60km/h) | 0.00000 |
+
+| ![Keep Right](samples/direction.png) | SoftMax Probabilities |
+| ------------------------------ | ----------- |
+| Keep right | 1.00000 |
+| Speed limit (60km/h) | 0.00000 |
+| Turn left ahead | 0.00000 |
+| Roundabout mandatory | 0.00000 |
+| End of all speed and passing limits | 0.00000 |
+
+| ![No Entry](samples/noentry.png) | SoftMax Probabilities |
+| ------------------------------ | ----------- |
+| No entry | 0.99919 |
+| Stop | 0.00081 |
+| Road work | 0.00000 |
+| No passing | 0.00000 |
+| Speed limit (30km/h) | 0.00000 |
+
+| ![Speed Limit (20km/h)](samples/twenty.png) | SoftMax Probabilities |
+| ------------------------------ | ----------- |
+| Speed limit (20km/h) | 0.88909 |
+| Speed limit (30km/h) | 0.10868 |
+| Speed limit (80km/h) | 0.00104 |
+| Speed limit (120km/h) | 0.00080 |
+| Speed limit (60km/h) | 0.00039 |
+
+| ![Speed Limit (50km/h)](samples/fifty.png) | SoftMax Probabilities |
+| ------------------------------ | ----------- |
+| Speed limit (50km/h) | 1.00000 |
+| Speed limit (80km/h) | 0.00000 |
+| Speed limit (30km/h) | 0.00000 |
+| Speed limit (60km/h) | 0.00000 |
+| Speed limit (100km/h) | 0.00000 |
