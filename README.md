@@ -59,9 +59,9 @@ For the convolution layers I chose to use 'valid' padding with a stride of 1. Th
 
 ## Training
 
-The final model was trained over 10 epochs with a batch size of 128. In order to help the model generalize I used dropout at a rate of 50%. I chose a learning rate of 0.001.
+The final model was trained over `10` epochs with a batch size of `128`. In order to help the model generalize I used dropout at a rate of `50%`. I chose a learning rate of `0.001`.
 
-I fed the output of TensorFlow's `softmax_cross_entropy_with_logits` with the one-hot encoded labels to the `reduce_mean` function and used the Adam Optimizer to do the training.
+I fed the output of TensorFlow's `softmax_cross_entropy_with_logits` with the one-hot encoded labels to the `reduce_mean` function and used the Adam Optimizer to minimize the loss.
 
 After each epoch I ran the model against the validation data set to measure it's progress.
 
@@ -106,3 +106,23 @@ EPOCH 10 ...
 Validation loss = 0.270
 Validation accuracy = 0.939
 ```
+
+<br />
+
+## Results
+
+Performance of the final model against the 3 data sets are as follows:
+
+- Training set: 99.2%
+- Validation set: 93.9%
+- Testing set: 93.7%
+
+I set out to implement the LeNet architecture from the very start. In order to achieve a result better than 93% I iterated over several variations on the hyper parameters before finally settling on 10 epochs, a batch size of 128, a learning rate of 0.001. Later I added dropout because I was getting high accuracy on the training set but my validation accuracy was significantly lower and the tests I did on real world examples (images from the web) showed fairly low accuracy. This seemed to improve the generalization of the model.
+
+<br />
+
+## Some Real World Examples
+
+| ![No Passing](samples/nopassing.png) | SoftMax Probabilities |
+| ------------------------------ | ----------- |
+| No Passing | 1.00000 |
